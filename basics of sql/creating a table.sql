@@ -1,0 +1,5 @@
+CREATE TABLE Students (
+  ID INT, 
+  NAME VARCHAR(100)
+INSERT INTO TABLE (1, Surekha)
+);
