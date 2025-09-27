@@ -1,0 +1,16 @@
+CREATE TABLE Customers (
+    customer_id INT PRIMARY KEY,
+    first_name VARCHAR(50),
+    last_name VARCHAR(50),
+    age INT,
+    country VARCHAR(50)
+);
+INSERT INTO Customers (customer_id, first_name, last_name, age, country) VALUES
+(1, 'John', 'Doe', 31, 'USA'),
+(2, 'Robert', 'Luna', 22, 'USA'),
+(3, 'David', 'Robinson', 22, 'UK'),
+(4, 'John', 'Reinhardt', 25, 'UK'),
+(5, 'Betty', 'Doe', 28, 'USA');
+CREATE TABLE Customers_copy AS
+SELECT * FROM Customers;
+SELECT * FROM Customers_copy;
